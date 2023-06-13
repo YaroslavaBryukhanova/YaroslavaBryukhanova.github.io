@@ -39,21 +39,14 @@ header{
 }
 .myPhoto{
     width: 65%;
-    /* padding-left: 20%;  */
-    /* padding-top: 20%; */
     border-radius: 5%;
-    /* margin-left: 0%; */
     margin-top: 10%;
     object-fit: scale-down;
-    /* border-radius: 50%; */
 }
 .biography{
-    /* background-color: #AAC695; */
     background-color: antiquewhite;
-    /* background-color: rgb(252,253,195); */
     height: 100vh;
     display: flex;
-    
 }
 .fullStory{
     margin-left: 3rem;
@@ -64,31 +57,26 @@ header{
 }
 .story{
     font-size: 1.5em;
-    margin-top: 3%;;
+    margin-top: 3%;
 }
 .gallery{
     display: grid;
-    /* margin-left: 100px; */
     float: right;
     width: 70%;
     background-color: wheat;
 }
 .firstrow{
     display: flex;
-    /* margin-left: 15%; */
     justify-content: space-around;
-
 }
 .secondrow{
     display: flex;
     justify-content: space-around;
-    /* margin-left: 15%; */
 }
 #hobby1{
     width: 35%;
     object-fit: scale-down;
     margin-top: 10%;
-    /* margin-left: 10%; */
 }
 #hobby2{
     width: 35%;
@@ -99,7 +87,6 @@ header{
 #hobby3{
     width: 35%;
     object-fit: scale-down;
-    
 }
 #hobby4{
     width: 35%;
@@ -114,11 +101,6 @@ header{
     height: 100vh;
     display: flex;
     background-color: rgb(114,141,94);
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 50%; */
 }
 .skills{
     margin-left: 3rem;
@@ -148,16 +130,11 @@ header{
     box-shadow: 10px 5px 5px black;
 }
 .listOfProjects {
-    
+    padding-left: 5%;
     padding-right: 0%;
-    
     height: 50%;
 }
-ul li{
-    
-    
-    list-style-type: none;
-}
+
 #Contacts{
     display: grid;
     height: 100vh;
@@ -177,7 +154,6 @@ ul li{
 .catgif{
     width: 40%;
     float: left;
-    /* height: auto; */
     margin-top: 8%;
     margin-left: 10%;
 }
@@ -188,19 +164,15 @@ ul li{
 }
 .socialmedia{
     background-color: rgb(114,141,94);
-    /* float: right; */
     width: 60%;
     margin-top: 7%;
     border-radius: 5%;
     margin-right: 3rem;
-    /* padding-top: 3%; */
     font-size: 1.7em;
     height: 100%;
     display: flex;
     justify-content: space-around;
-    
     box-shadow: 10px 5px 5px black;
-
 }
 .mess_img1{
     width: 80%;
