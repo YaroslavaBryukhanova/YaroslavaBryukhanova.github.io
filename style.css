@@ -151,13 +151,13 @@ header{
     display: flex;
     height: 50%;
 }
-.catgif{
+.gif{
     width: 40%;
     float: left;
     margin-top: 8%;
     margin-left: 10%;
 }
-#cat{
+#catgif{
     width: 60%;
     border-radius: 5%;
     object-fit: scale-down;
@@ -203,6 +203,21 @@ header{
 .pdate{
     margin-top: 7%;
 }
+#JokeAPI{
+    height: auto;
+    background-color:  rgb(114,141,94);
+    color: antiquewhite;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.joke{
+    width: 50%;
+}
+
 
 
 

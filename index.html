@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <a class="menu" href="#JokeAPI">Joke API</a>
         <a class="menu" href="#Contacts">Contacts</a>
         <a class="menu" href="#MyProjects">My projects</a>
         <a class="menu" href="#AboutMe">About me</a>
@@ -18,7 +19,7 @@
         <div class="main-div" id="Home">
             <img class="myPhoto" src="with_leaves.png" alt="Yaroslava Bryukhanova">
             <p class="firstLook">Hello! I am Yaroslava Bryukhanova<br>
-            This is my portfolio</p>
+                This is my portfolio</p>
         </div>
         <div id="AboutMe" class="biography">
             <div class="fullStory">
@@ -56,15 +57,17 @@
                         Software project: VibeChecker</li>
                     <li>
                         An app: Check your level of knowledge for "USE" in Informatics in three tasks</li>
-                </ul>
-            </div>
+                    </ul>
+                </div>
         </div>
     </main>
     <footer>
         <div id="Contacts">
             <h2 class="contact">Contact me</h2>
             <div class="messenger">
-                <div class="catgif"><img id="cat" src="cat.gif" alt="Cat-programmer"></div>
+                <div class="gif">
+                    <img id="catgif" src="cat.gif" alt="A cat-programmer">
+                </div>
                 <div class="socialmedia">
                     <a class="mess_button" id="gh-link" href="https://github.com/YaroslavaBryukhanova"><img class="mess_img1" src="github.png" alt="My Git Hub"></a>
                     <a class="mess_button" id="inst-link" href="https://instagram.com/yaroslava_bryukhanova_?igshid=MzNlNGNkZWQ4Mg=="><img class="mess_img2" src="Instagram.png" alt="My Instagram"></a>
@@ -79,6 +82,14 @@
                 </p>
             </div>
         </div>
+        <div id="JokeAPI">
+            <div class="joke">
+                <h2 id="comic_title"></h2>
+                <img id="joke">
+                <div id="date"></div>
+            </div>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
