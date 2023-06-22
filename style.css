@@ -203,18 +203,7 @@ header{
 .pdate{
     margin-top: 7%;
 }
-#JokeAPI{
-    height: auto;
-    background-color:  rgb(114,141,94);
-    color: antiquewhite;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-.joke{
-    width: 50%;
-}
+
+
+
 

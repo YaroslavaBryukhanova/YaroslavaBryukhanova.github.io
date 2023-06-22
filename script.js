@@ -21,5 +21,4 @@ joke_json.then(
             }
         )
     }
-
 )
