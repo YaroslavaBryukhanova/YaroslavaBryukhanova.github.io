@@ -4,7 +4,7 @@
 
 <slot />
 <footer>
-	<div class="date">
+	<div class="Info">
 		<p class="pdate">
 			Created by Yaroslava Bryukhanova
 			<br />2023

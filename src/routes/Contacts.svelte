@@ -3,7 +3,7 @@
 	import imageInstagram from '$lib/images/Instagram.png';
 	import imageTelegram from '$lib/images/telegram.png';
 	import imageGmail from '$lib/images/gmail.png';
-	import imageCat from '$lib/images/cat.gif';
+	import imageCat from '$lib/images/cat.gif'; 
 </script>
 
 <div id="Contacts">

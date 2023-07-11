@@ -7,7 +7,7 @@
 	onMount(() => {
 		const joke = document.querySelector('#joke') as HTMLImageElement;
 		const comic_title = document.querySelector('#comic_title') as HTMLElement;
-		const date = document.querySelector('date') as HTMLDivElement;
+		const date = document.querySelector('#date') as HTMLDivElement;
 		fetch('https://fwd.innopolis.university/api/hw2?email=y.bryukhanova@innopolis.university')
 			.then((response: Response) => response.json())
 			.then((data: API) => {
@@ -21,6 +21,7 @@
 					})
 				);
 			});
+			
 	});
 </script>
 
