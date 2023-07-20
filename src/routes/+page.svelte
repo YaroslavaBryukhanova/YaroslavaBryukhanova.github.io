@@ -7,6 +7,10 @@
 
 <svelte:head>
 	<title>Portfolio</title>
+	<meta
+		name="description"
+		content="This page is Yaroslava's Bryukhanova portfolio. Here you can find small biography, useful social media links, and projects descriprion."
+	/>
 </svelte:head>
 <body>
 	<header>
@@ -20,7 +24,7 @@
 		<Home />
 		<AboutMe />
 		<MyProjects />
-        <Contacts />
+		<Contacts />
 	</main>
 </body>
 

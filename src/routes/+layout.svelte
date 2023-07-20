@@ -3,6 +3,9 @@
 </script>
 
 <slot />
+<head>
+	<meta name="author" content="Yaroslava Bryukhanova" />
+</head>
 <footer>
 	<div class="Info">
 		<p class="pdate">
